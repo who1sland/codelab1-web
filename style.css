@@ -1,0 +1,114 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+
+        header {
+            background-color: #005eb8;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        header img {
+            max-width: 120px;
+            margin: 15px auto;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin: 10px 0;
+        }
+
+        header p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        .form-section {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            width: 60%;
+            margin: 30px auto;
+        }
+
+        .form-section h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input, select {
+            padding: 10px;
+            font-size: 16px;
+            width: 100%;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .form-group {
+            flex: 1 1 45%;
+        }
+
+        .form-group.full-width {
+            flex: 1 1 100%;
+        }
+
+        button {
+            padding: 15px 30px;
+            background-color: #0f0d09;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #11100d;
+        }
+
+        footer {
+            background-color: #f9f9f9;
+            padding: 40px 0;
+            color: #7d1eeb;
+            text-align: center;
+        }
+
+        footer .footer-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        footer .social-icons a:hover {
+            color: #0056b3;
+        }
+        footer .bottom-bar {
+            background-color: #080705;
+            padding: 15px;
+            color: white;
+            font-size: 14px;
+        }
+
+    

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harapan Baru Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header>
+    <img src="Your paragraph text.png" alt="Ferizy Logo">
+    <h1>Harapan Baru</h1>
+    <p>Naik speed boat berfasilitas VVIP!</p>
+</header>
+
+
+<div class="form-section">
+    <h2>Cari Tiket</h2>
+    <form id="bookingForm">
+        <div class="form-group">
+            <label for="pelabuhanAsal">Pelabuhan Asal</label>
+            <select id="pelabuhanAsal" required>
+                <option value="" disabled selected>Pilih Pelabuhan Asal</option>
+                <option value="Tarakan">Tarakan</option>
+                <option value="Malinau">Malinau</option>
+                <option value="Tanjung selor">Tanjung selor </option>
+                <option value="Nunukan">Nunukan </option>
+                <option value="Derawan">Derawan </option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="pelabuhanTujuan">Pelabuhan Tujuan</label>
+            <select id="pelabuhanTujuan" required>
+                <option value="" disabled selected>Pilih Pelabuhan Tujuan</option>
+                <option value="Tarakan">Tarakan</option>
+                <option value="Sebawang">Sebawang</option>
+                <option value="Samarinda">Samarinda </option>
+                <option value="Balikpapan">Balikpapan </option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="layanan">Layanan</label>
+            <select id="layanan" required>
+                <option value="" disabled selected>Pilih Layanan</option>
+                <option value="Ekonomi">Ekonomi</option>
+                <option value="Private Trip">Private Trip</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="tanggalBooking">Jadwal Keberangkatan (Departure)</label>
+            <input type="date" id="tanggalBooking" required>
+        </div>
+
+        <div class="form-group">
+            <label for="jenisPengguna">Jenis Pengguna </label>
+            <select id="jenisPengguna" required>
+                <option value="" disabled selected>Bawa anak dibawah umur atau tidak?</option>
+                <option value="Dewasa">Dewasa</option>
+                <option value="Dibawah umur">Dibawah umur</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="penumpang">Jumlah Penumpang</label>
+            <input type="number" id="penumpang" min="1" required>
+        </div>
+
+        <div class="form-group full-width">
+            <button type="submit">Cari Jadwal</button>
+        </div>
+    </form>
+</div>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-contact">
+            <h4>Hubungi</h4>
+            <p>📞 Menerima carteran</p>
+            <p>📱 SMS/WhatsApp: 0858437742931</p>
+            <p>✉ Email: HarapanBaru@gmail.com</p>
+        </div>
+        <div class="footer-info">
+            <h4>Informasi</h4>
+            <p><a href="#">Tentang Kami</a></p>
+            <p><a href="#">Pangkalan</a></p>
+            <p><a href="#">Cuaca</a></p>
+            <p><a href="#">Libur Keberangkatan</a></p>
+        </div>
+        <div class="footer-links">
+            <h4>Produk Kami</h4>
+            <p><a href="#">Jasa Antar jemput Pelabuhan</a></p>
+            <p><a href="#">Jasa Trip derawan </a></p>
+            <p><a href="#">Aneka Jasa</a></p>
+        </div>
+        <div class="footer-links">
+            <h4>Dukungan</h4>
+            <p><a href="#">Syarat & Ketentuan</a></p>
+        </div>
+        <div class="footer-logo">
+            <h4>Alamat Kami</h4>
+            <p>Jl. Belakang Ramayana Pos TNI AL</p>
+        </div>
+    </div>
+    <div class="bottom-bar">
+        <p>Copyright © 2020 PT. Harapan Baru Express</p>
+    </div>
+</footer>
+
+</body>
+</html>
