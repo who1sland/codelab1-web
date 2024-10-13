@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #005f73; /* Blue background */
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+.input-area {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#addTaskButton {
+    padding: 10px;
+    background-color: #3a86ff; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addTaskButton:hover {
+    background-color: #005f73; /* Darker blue on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #caf0f8; /* Light blue for tasks */
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+li span {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+li button {
+    background-color: #3a86ff; /* Blue for delete button */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+
+li button:hover {
+    background-color: #005f73; /* Darker blue on hover */
+}
